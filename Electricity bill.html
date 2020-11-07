@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Electricity bill</title>
+		<link rel="Stylesheet" type="text/css" href="electricBillCSS.css">
+	</head>
+	<body align="center">
+	<h1>Ceylon Electricity Board</h1>
+		<div id="firstDiv">
+			<h2>Domestic Electricity Bill Calculater</h2>
+			<div id="SecondDiv">
+				<form>		
+					<table>
+						<tr>
+							<td><label for="NoKwh">No of units used :</label></td>
+							<td><input type="number" id="unit" name="NoUnits" max="180" min="0"></td>
+							<td>&nbsp&nbspkWh</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td align="right"><input type="reset" value="clear" ></td>
+							<td></td>
+						</tr>
+					</table>
+				</form>
+				<button onclick="myFunction()">calculate my bill</button><br>
+				<p >Your bill amount : <span id="demo"></span>rs</p>
+			</div>
+			<table Style="padding:20px" width="500px">
+				<tr>
+					<td><a href="https://roar.media/english/life/reports/electricity-bill-calculated-analysis">More information on how my bill is calculated</a></td>
+					<td><a href="https://ceb.lk/bill-calculation-commercial/en" align="right">go to CEB webpage</a></td>
+				</tr>
+				<tr>
+				<td id="MyName" colspan="2">Create by : 2017/ICT/09 T.Vanathy</td>
+				</tr>
+			</table>
+		</div>
+		<script src="Script.js"></script>
+	</body>
+</html>

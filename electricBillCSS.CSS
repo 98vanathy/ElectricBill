@@ -1,0 +1,40 @@
+		body{
+			font-size:150%;
+			font-weight:bold;
+			background-repeat: no-repeat;
+			background-attachment: fixed;  
+			background-size: cover;
+		}
+		h1{
+			font-size:200%;
+			color:black;
+			text-decoration:underline;
+			text-shadow:2px 3px yellow;
+			width:65%;
+			margin-left:200px;
+		}
+		#firstDiv{
+			width:500px;
+			margin-top:50px;
+			margin-left:100px;
+			text-align:center;
+			padding:20px;
+			border-style:solid ;
+			background-color:yellow;
+			border-radius:60px;
+			background-color:yellow;
+		}
+		#SecondDiv{
+			margin:20px;
+			border-style:solid;
+			border-radius:20px;
+			border-width:1px;
+			width:400px;
+			padding-left:20px;
+			padding-top:10px;
+			}
+		#MyName{
+			padding-top:30px;
+			color:red;
+			font-size:25px;
+		}
